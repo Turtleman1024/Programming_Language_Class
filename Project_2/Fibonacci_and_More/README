@@ -1,0 +1,41 @@
+
+	Language used : OCaml
+	Version       : 4.02.3
+	Author        : Kenneth M. Murry
+	Course        : CptS 355
+	
+This directory holds some programs I wrote to learn OCaml.
+
+Included in this directory is a Makefile that will run each of the source code I have created.
+
+****HelloWorld.ml*****
+I first created a simple Hello World program.
+To run this source code simply type: $make hello
+
+****Pattern_Matching.ml*****
+This is my first program that I wrote for OCaml.
+It is a simple program that uses pattern matching to find the month of the year.
+To run this source code simply type: $make pattern
+
+****Currying.ml*****
+To understand how to use function in OCaml. I wrote a program that uses currying.
+To run this source code simply type: $make currying
+
+
+****Factorial.ml*****
+To bring everything together what I had learned up to a point. I created a program that 
+calculates a user inputed factorial number.
+To run this source code simply type: $make factorial
+
+
+****Fibonacci.ml*****
+To further bring everything together what I had learned up to a point. I created
+a program that calculates a user inputed fibonacci number.
+To run this source code simply type: $make fibonacci
+
+
+****Reading_from_file.ml*****
+To understand how to read from a file I created a program from a definition of a 
+turing machine.
+To run this source code simply type: $make read_file
+

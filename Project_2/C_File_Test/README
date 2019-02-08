@@ -1,0 +1,21 @@
+Language used : OCaml
+Version       : 4.02.3
+
+Purpose       : This folder holds a test for the creation of a C source file.
+
+Compiling code: Included is a Makefile simple type:
+
+		$ make test
+		 Run the above command to test valid and input.
+
+		$ make valid 
+		  Run the above command to test the valid input.
+
+		$ make valid2
+ 		  Run the above command to test another valid input.
+		
+		To run your own test file
+		
+		$ make rdp
+		$ main.native <your file>
+

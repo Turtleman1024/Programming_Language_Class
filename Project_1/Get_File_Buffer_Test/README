@@ -1,0 +1,20 @@
+Language used : OCaml
+Version       : 4.02.3
+
+This directory contains a test of the get_file_buffer.ml function.
+
+To run the test a Makefile has been included.
+
+To conduct the test:
+
+$ make test
+
+The output to the screen should look like:
+
+Begin of test
+------------------
+
+The string read was: result = a+b
+
+------------------
+End of test

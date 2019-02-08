@@ -1,0 +1,38 @@
+Language used : OCaml
+Version       : 4.02.3
+
+This directory contains a test of the get_token.ml function.
+
+To run the test a Makefile has been included.
+
+To conduct the test:
+
+$ make test
+
+The output to the screen should look like:
+
+Begin of test
+------------------
+
+The string read was: result = (a+b)
+
+Token alpha found: r
+Token alpha found: e
+Token alpha found: s
+Token alpha found: u
+Token alpha found: l
+Token alpha found: t
+White space found
+Token BinOp found: =
+White space found
+Token found: (
+Token alpha found: a
+Token BinOp found: +
+Token alpha found: b
+Token found: )
+Token BinOp found:
+
+String is valid
+------------------
+End of test
+

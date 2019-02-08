@@ -1,0 +1,21 @@
+(*
+	Language used : OCaml
+	Version       : 4.02.3
+	Author        : Kenneth M. Murry
+	Course        : CptS 355
+	Purpose       : Learning Hash Tables in OCAML
+
+	To run this source code: $make hash
+
+	This directory holder the information and source code form me trying to learn hash tables in ocaml. I plan on using a hash table as the symbol table for project 2.	
+
+	1. Hash tables are used for quick data storage and retrieval.
+	2. Hash tables look like (key, value) pairs ......  (name, address)
+	3. Data (records) are stored in buckets using hash keys.
+	4. Hash keys are calculated by applying a hasing algorithm to a chosen value contained within the record.
+	5. Collision???
+		If the hashing function produces the same index(key) for two different key values.
+		Instead of store just one value we can store two values (called chaining).
+	6. Hash Tables in Ocaml are polymorphic
+
+*)

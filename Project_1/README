@@ -1,0 +1,19 @@
+Language used : OCaml
+Version       : 4.02.3
+
+Compiling code: Included is a Makefile simple type:
+
+		$ make test
+		 Run the above command to test both valid and invalid input.
+
+		$ make valid 
+		  Run the above command to test only the valid input.
+
+		$ make invalid
+ 		  Run the above command to test only the invalid input.
+		
+		To run your own test file
+		
+		$ make rdp
+		$ main.native <your file>
+
